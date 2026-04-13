@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Equipos</title>
+<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<nav class="navbar">
+<div class="logo">
+	<img src="/images/logo.png" alt="Logo" class="logo-img">
+</div>
+<ul class="nav-links">
+<li><a href="stageplot.html">Stage Plot</a></li>
+<li><a href="equipos.html">Equipos</a></li>
+<li><a href="../index.html#rf">RF Plot</a></li>
+<li><a href="../index.html#input">Input / Channel List</a></li>
+</ul>
+</nav>
+
+<main class="content">
+<section class="section">
+<h1>Equipos</h1>
+<button onclick="window.location.href='formulario_equipo.html'" class="btn-crear">Crear</button>
+<p>Vista dedicada a la gestión de equipos.</p>
+<table class="equipos-table" border="1">
+	   <thead>
+		   <tr>
+			   <th>Marca</th>
+			   <th>Modelo</th>
+			   <th>Tipo</th>
+			   <th>Cantidad</th>
+			   <th>Acciones</th>
+		   </tr>
+	   </thead>
+	   <tbody id="equipos-tbody">
+		   <tr><td colspan="5">Cargando...</td></tr>
+	   </tbody>
+</table>
+</section>
+</main>
+<script src="js/equipos.js"></script>
+</body>
+</html>

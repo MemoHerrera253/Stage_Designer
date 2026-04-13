@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Crear Equipo</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/images/logo.png" alt="Logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="stageplot.html">Stage Plot</a></li>
+      <li><a href="equipos.html">Equipos</a></li>
+      <li><a href="../index.html#rf">RF Plot</a></li>
+      <li><a href="../index.html#input">Input / Channel List</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <section class="section">
+      <h1>Crear Equipo</h1>
+      <form id="form-equipo">
+        <label>Marca:<br><input type="text" name="marca" required></label><br>
+        <label>Modelo:<br><input type="text" name="modelo" required></label><br>
+        <label>Tipo:<br><input type="text" name="tipo" required></label><br>
+        <label>Cantidad:<br><input type="number" name="cantidad" min="1" required></label><br>
+        <button type="submit">Guardar</button>
+        <button type="button" onclick="window.location.href='equipos.html'">Cancelar</button>
+      </form>
+      <div id="mensaje"></div>
+    </section>
+  </main>
+  <script src="js/formulario_equipo.js"></script>
+</body>
+</html>

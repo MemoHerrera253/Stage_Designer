@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Stage Designer</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/images/logo.png" alt="Logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="/stageplot.html">Stage Plot</a></li>
+      <li><a href="/equipos.html">Equipos</a></li>
+      <li><a href="/login.html">Login</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <section class="login-section">
+      <h1>Iniciar Sesión</h1>
+      <form id="loginForm" class="form">
+        <label for="loginUser">Usuario o Email</label>
+        <input type="text" id="loginUser" name="loginUser" required />
+        <label for="loginPassword">Contraseña</label>
+        <input type="password" id="loginPassword" name="loginPassword" required />
+        <button type="submit">Entrar</button>
+      </form>
+      <p class="forgot-link"><a href="/recuperar.html">Olvidé mi contraseña</a></p>
+      <p class="register-link">¿No tienes cuenta? <a href="/registro.html">Regístrate</a></p>
+    </section>
+  </main>
+  <script src="/js/login.js"></script>
+</body>
+</html>

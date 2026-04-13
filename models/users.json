@@ -1,0 +1,57 @@
+[
+  {
+    "user": "memo2503",
+    "email": "geha76484@gmail.com",
+    "password": "$2b$10$hcwEa4WYGkRf53LXyFFCFugRqN6NwmrCd72JB7AYxNW5ufl5XmbMu",
+    "mfaEnabled": true,
+    "otp": "912326",
+    "otpExpires": 1776122582313,
+    "resetToken": "581af4e720b2ea2a0aa245b5284cd4872c8e5ef25d9e9264a1a8d61af2e9fbe4",
+    "resetTokenExpires": 1776123369581,
+    "role": "USER"
+  },
+  {
+    "user": "memoH2503",
+    "email": "211179@utags.edu.mx",
+    "password": "$2b$10$rO39k3V8lxeJuIT2YjKwDeWxctw1ILuNZXTMCwRligHjtYP7G1fP6",
+    "mfaEnabled": true,
+    "otp": "658766",
+    "otpExpires": 1774408579056,
+    "resetToken": "7f0c3f4ef8a4968f76722967fb71889cb0cf4b2e5b137fea26b7ee2422a4f0f0",
+    "resetTokenExpires": 1774409561453,
+    "role": "USER"
+  },
+  {
+    "user": "prueba",
+    "email": "prueba@test.com",
+    "password": "$2b$10$C2846hpq1Vv/LcUrFyu7kemY29UsZSaie0BiiojgEPoS1VAYDQfZy",
+    "mfaEnabled": true,
+    "secretQ": "¿qué prueba es esta?",
+    "secretA": "$2b$10$Q73nQc4QjGisM.UGcgTOg.dCgEykXsAaBva34wGayL5TnwqoldeyW",
+    "secretAttempts": 0,
+    "resetToken": "13c12caaa5a1fb23d22a437fa739f12a0cab303eaf575e70617ce17b030ff9d7",
+    "resetTokenExpires": 1774411688338,
+    "role": "USER"
+  },
+  {
+    "user": "superadmin",
+    "email": "superadmin@test.com",
+    "password": "$2b$10$Qw1Qw1Qw1Qw1Qw1Qw1Qw1uQw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1Qw1",
+    "mfaEnabled": true,
+    "role": "SUPERADMIN"
+  },
+  {
+    "user": "admin",
+    "email": "admin@test.com",
+    "password": "$2b$10$Qw2Qw2Qw2Qw2Qw2Qw2Qw2uQw2Qw2Qw2Qw2Qw2Qw2Qw2Qw2Qw2Qw2Qw2Qw2",
+    "mfaEnabled": true,
+    "role": "ADMIN"
+  },
+  {
+    "user": "editor",
+    "email": "editor@test.com",
+    "password": "$2b$10$Qw3Qw3Qw3Qw3Qw3Qw3Qw3uQw3Qw3Qw3Qw3Qw3Qw3Qw3Qw3Qw3Qw3Qw3Qw3",
+    "mfaEnabled": true,
+    "role": "EDITOR"
+  }
+]

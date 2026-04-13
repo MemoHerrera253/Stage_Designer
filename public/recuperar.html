@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recuperar Contraseña - Stage Designer</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/images/logo.png" alt="Logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="/stageplot.html">Stage Plot</a></li>
+      <li><a href="/equipos.html">Equipos</a></li>
+      <li><a href="/login.html">Login</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <section class="recover-section">
+      <h1>Recuperar Contraseña</h1>
+      <form id="recoverForm" class="form">
+        <label for="recoverEmail">Ingresa tu email</label>
+        <input type="email" id="recoverEmail" name="recoverEmail" required />
+        <button type="submit">Continuar</button>
+      </form>
+      <div id="recoverOptions" style="display:none; margin-top:20px;">
+        <p>Selecciona un método de recuperación:</p>
+        <button id="option-email" class="option-btn">Recuperación por Email</button>
+        <button id="option-secret" class="option-btn">Preguntas Secretas</button>
+        <button id="option-sms" class="option-btn">Recuperación por SMS</button>
+        <button id="option-call" class="option-btn">Recuperación por Llamada</button>
+      </div>
+      <div id="recoverResult"></div>
+      <p class="login-link"><a href="/login.html">Volver a Login</a></p>
+    </section>
+  </main>
+  <script src="/js/recuperar.js"></script>
+</body>
+</html>

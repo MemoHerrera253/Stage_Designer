@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registro - Stage Designer</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="/images/logo.png" alt="Logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="/stageplot.html">Stage Plot</a></li>
+      <li><a href="/equipos.html">Equipos</a></li>
+      <li><a href="/login.html">Login</a></li>
+    </ul>
+  </nav>
+  <main class="content">
+    <section class="register-section">
+      <h1>Registro</h1>
+      <form id="registerForm" class="form">
+        <label for="registerUser">Usuario</label>
+        <input type="text" id="registerUser" name="registerUser" required />
+        <label for="registerEmail">Email</label>
+        <input type="email" id="registerEmail" name="registerEmail" required />
+        <label for="registerPassword">Contraseña</label>
+        <input type="password" id="registerPassword" name="registerPassword" required />
+        <label for="registerRole">Rol</label>
+        <select id="registerRole" name="registerRole">
+          <option value="USER" selected>USER</option>
+          <option value="EDITOR">EDITOR</option>
+          <option value="ADMIN">ADMIN</option>
+          <option value="SUPERADMIN">SUPERADMIN</option>
+        </select>
+        <label for="registerSecretQ">Pregunta secreta</label>
+        <input type="text" id="registerSecretQ" name="registerSecretQ" required placeholder="Ej: ¿Nombre de tu primera mascota?" />
+        <label for="registerSecretA">Respuesta secreta</label>
+        <input type="password" id="registerSecretA" name="registerSecretA" required />
+        <button type="submit">Registrarse</button>
+      </form>
+      <p class="login-link">¿Ya tienes cuenta? <a href="/login.html">Inicia sesión</a></p>
+    </section>
+  </main>
+  <script src="/js/registro.js"></script>
+</body>
+</html>
